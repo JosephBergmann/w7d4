@@ -1,2 +1,7 @@
 /* PHASE 1: Header */
-
+.header-image{
+    position: relative;
+    background: url(/Users/josephbergmann/Desktop/aaclass/classwork/w7d4/skeleton/images/cats.jpg);
+    height: 200px;
+    width: 100%
+}
