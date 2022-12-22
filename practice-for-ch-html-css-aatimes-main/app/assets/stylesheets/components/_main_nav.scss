@@ -1,31 +1,48 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px 1px
+
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  align-items: center;
 }
 
 .left-nav {
 
   > ul {
     > li {
-      
+      position: relative;
+      margin-left: 20px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      text-transform: capitalize
     }
   }
 
-  span {
-    
+  span{
+    // background-color: $blue
   }
+}
+
+.light-gray:hover{
+  background-color: $lightest-gray
 }
 
 .right-nav  {
   > ul {
     > li {
-      
+      position: relative;
+      margin-left: 20px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      text-transform: capitalize
     }
 
     > li:last-of-type {

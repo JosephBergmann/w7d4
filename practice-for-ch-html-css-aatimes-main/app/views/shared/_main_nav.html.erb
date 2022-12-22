@@ -4,25 +4,26 @@
       <li data-controller="sections-sidebar"> 
         <div id="sections-sidebar-btn" data-action="click->sections-sidebar#toggleSidebar">
           <i class="fa-solid fa-bars"></i>
-          <span>sections</span>
+          <span>SECTIONS</span>
         </div>
       </li>
 			<li data-controller="modal">
         <div id="search-modal-btn" data-action="click->modal#toggleModal">
           <i class="fa-solid fa-magnifying-glass"></i>
-          <span>search</span>
+          <span class="light-gray">SEARCH</span>
         </div>
 			</li>
 		</ul>
 	</nav>
   <nav class="right-nav">
   <ul>
-  <button>Subscribe</button>
-  <button>Log in</button>
-  <label for="setting">Settings</label>
-  <select id="option">
-  <i class="fa-solid fa-gear"></i>
-  </select>
+  <%# <button>Subscribe</button>
+  <button>Log in</button> %>
+  <%# <label for="setting">Settings</label> %>
+      <li><button>SUBSCRIBE NOW</button></li>
+      <li><button>LOG IN</button></li>
+      <li class="light-gray"><i class="fa-solid fa-gear"></i></li>
+      <%# <li><i class=“fa-solid fa-gear”></i></li> %>
   </ul>
   </nav>
 </header>
